@@ -4,6 +4,14 @@
 npm install 
 ```
 
+### Iniciar el servicio
+
+El servicio se conecta a localhost, en el puerto 3000. Se requiere la utilización de MongoDB, al cual se conecta mediante el puerto 27017, creando una base de datos llamada wenu. Una vez que MongoDB este iniciado mediante su daemon ```mongod``` se debe iniciar el servicio REST mediante:
+
+```
+node server.js
+```
+
 ## Del servicio REST
 
 La API permite hacer las siguientes acciones sobre usuarios y autos:
