@@ -26,6 +26,8 @@ En la carpeta models se encuentran los modelos de usuarios y autos.
 
 ## API
 
+En la carpeta models se pueden encontrar tanto el modelo para usuario como para auto.
+
 # Usuario
 
 - Crear (POST) : exige rut, nombre, marca de auto, modelo de auto y año del auto.
